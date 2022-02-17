@@ -25,7 +25,9 @@ new Vue({
 
 ## 类图
 名称：VueRouter
+
 属性：options\data\routeMap
+
 方法：
     Constructor(Options): VueRouter
     install(Vue): void
@@ -36,4 +38,4 @@ new Vue({
 
 ## 实现
 
-`myVueRouter/index.js`
+[`src/myVueRouter/index.js`](https://github.com/Humphrey2021/vue-router/blob/main/src/myVueRouter/index.js)

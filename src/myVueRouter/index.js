@@ -1,6 +1,7 @@
 let _Vue = null
 
 export default class VueRouter {
+    // 可以让vue注册插件 Vue.use(VueRouter),内部需要有一个 install 静态方法
     static install(Vue) {
         // 1. 判断当前插件是否已经安装
         if (VueRouter.install.installed) return
