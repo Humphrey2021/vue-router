@@ -16,7 +16,7 @@ const router = new VueRouter({
 })
 
 // ---main.js---
-// 创建Vue实力，注册router对象
+// 创建Vue实例，注册router对象
 new Vue({
   router,
   render: h => h(App)
